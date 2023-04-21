@@ -14,8 +14,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BOT_TOKEN = os.getenv('TOKEN')                  # Токен бота телеграм
-YOUR_APPID = os.getenv('YOUR_APPID')            # Токен API погоды сайт https://openweathermap.org
-API_KEY = os.getenv("API_KEY")                  # Токен API конвертера валют сайт https://app.currencyapi.com/
+YOUR_APPID = os.getenv('YOUR_APPID')            # Ключ API погоды сайт https://openweathermap.org
+API_KEY = os.getenv("API_KEY")                  # Ключ API конвертера валют сайт https://app.currencyapi.com/
 bot = Bot(token=BOT_TOKEN)
 
 # Инициируем БД
