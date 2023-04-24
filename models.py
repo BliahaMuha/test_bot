@@ -11,7 +11,7 @@ class User(Base):
     __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True)
-    telegram_id = Column(Integer)
+    telegram_id = Column(Integer, nullable=False)
     first_name = Column(String)
     last_name = Column(String)
     username = Column(String)
