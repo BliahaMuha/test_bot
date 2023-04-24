@@ -3,4 +3,4 @@ users.db
 venv
 .idea
 tests
-
+.pytest_cache
